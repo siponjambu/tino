@@ -1,0 +1,100 @@
+############################
+# ENVIRONMENT / SECRETS
+############################
+.env
+.env.*
+*.env
+
+############################
+# MISCELLANEOUS
+############################
+*.class
+*.log
+*.pyc
+*.swp
+*.tmp
+*.bak
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+############################
+# IDE / EDITOR
+############################
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code (optional â€“ keep commented if needed)
+#.vscode/
+
+############################
+# FLUTTER / DART
+############################
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+############################
+# ANDROID
+############################
+android/.gradle/
+android/captures/
+android/local.properties
+android/key.properties
+android/**/GeneratedPluginRegistrant.java
+
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+############################
+# IOS
+############################
+ios/.symlinks/
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+ios/Flutter/engine
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+############################
+# WEB
+############################
+web/.dart_tool/
+web/build/
+
+############################
+# DESKTOP
+############################
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+macos/Flutter/ephemeral/
+
+############################
+# SYMBOLS / OBFUSCATION
+############################
+app.*.symbols
+app.*.map.json
+
+############################
+# LOGS
+############################
+*.log
+logs/

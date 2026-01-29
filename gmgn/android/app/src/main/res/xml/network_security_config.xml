@@ -1,0 +1,40 @@
+<network-security-config>
+<!--   ===============================
+         DEFAULT: HTTPS ONLY
+         ===============================   -->
+<base-config cleartextTrafficPermitted="false">
+<trust-anchors>
+<certificates src="system"/>
+</trust-anchors>
+</base-config>
+<!--   ===============================
+         DEXSCREENER
+         ===============================   -->
+<domain-config cleartextTrafficPermitted="false">
+<domain includeSubdomains="true">dexscreener.com</domain>
+<domain includeSubdomains="true">api.dexscreener.com</domain>
+<trust-anchors>
+<certificates src="system"/>
+</trust-anchors>
+</domain-config>
+<!--   ===============================
+         JUPITER (PENTING)
+         ===============================   -->
+<domain-config cleartextTrafficPermitted="false">
+<domain includeSubdomains="true">api.jup.ag</domain>
+<domain includeSubdomains="true">jup.ag</domain>
+<trust-anchors>
+<certificates src="system"/>
+</trust-anchors>
+</domain-config>
+<!--   ===============================
+         BIRDEYE
+         ===============================   -->
+<domain-config cleartextTrafficPermitted="false">
+<domain includeSubdomains="true">birdeye.so</domain>
+<domain includeSubdomains="true">public-api.birdeye.so</domain>
+<trust-anchors>
+<certificates src="system"/>
+</trust-anchors>
+</domain-config>
+</network-security-config>
